@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Document" content="Formularis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularis</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Formularis -->
+            <form action="./formulariEnviat.html" method="get">
+                <!-- Text general (Text) -->
+                <label for="idNom">Nom: </label>
+                <input id="idNom" type="text" name="Nom" placeholder="Nom" required>
+                <br>
+                Cognom: *<input type="text" name="Cognom" placeholder="Cognoms"  required>
+                <br>
+                <!-- Password -->
+                Contraseña: *<input type="password" name="contrasena" placeholder="Contraseña" required>
+                <br>
+                Correu: <input type="email" name="Correu">
+                <br>
+                Fitxer: <input type="file" name="fitxer">
+                <br>
+                Telefon: <input type="tel" name="telefon">
+                <br>
+                Data: <input type="date" name="data">
+                <br>
+                Web: <input type="url" name="web">
+                <br>
+                Numero: <input type="number" name="numero">
+                <br>
+                Rang <input type="range" name="Rango">
+                <br>
+                ASIX1: <input type="checkbox" name="ASIX 1">
+                ASIX2: <input type="checkbox" name="ASIX 2">
+                <br>
+                ASIX <input type="radio" name="curs" value="asix">
+                DAM <input type="radio" name="curs" value="dam">
+                <br>
+                <select name="ciutat" id="">
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Canovelles">Canovelles</option>
+                    <option value="La Garriga">La Garriga</option>
+                </select>
+                <br>
+                <textarea name="missatge" cols="20" rows="10">missatge de pau</textarea>
+                <!-- Botó d'enviar (submit)  -->
+                <input type="submit" value="Enviar formulari">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
